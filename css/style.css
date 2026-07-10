@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px 0;
+}
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+}
+.navigation-bar > li > a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 500;
+}
