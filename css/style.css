@@ -17,7 +17,9 @@
   font-family: "Arimo", sans-serif;
   font-weight: 400;
 }
+
 /* Hero Section */
+
 .hero-section {
   background:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)),
@@ -55,7 +57,9 @@
 .hero-content > .register-button {
   margin-top: 350px;
 }
+
 /* Speakers Section */
+
 .speakers-section {
   max-width: 1200px;
   margin: 80px auto;
@@ -70,9 +74,66 @@
   font-weight: 700;
   color: #111827;
 }
+
 /* speaker-cards */
 .speaker-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+}
+
+/* Pricing Section */
+
+.pricing-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+.pricing-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pricing-header h2 {
+  font-size: 48px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+.pricing-header p {
+  color: #6b7280;
+  font-size: 16px;
+}
+.standard-btn,
+.pro-btn,
+.team-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.standard-btn,
+.team-btn {
+  background: #fff;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.pro-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+.team-bg {
+  background: #f8f9fbff;
+}
+.team-bg .team-btn {
+  border-color: #0d1b2aff;
+  color: #0d1b2aff;
+}
+.pricing-card li::marker {
+  color: #2563ebff;
+}
+.pricing-section {
+  margin: 150px auto;
 }
