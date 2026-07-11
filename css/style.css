@@ -13,5 +13,6 @@
 .navigation-bar > li > a {
   text-decoration: none;
   color: #575757;
-  font-weight: 500;
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
 }
