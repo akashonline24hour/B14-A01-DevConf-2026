@@ -1,5 +1,3 @@
-# Give me a relevent and engaging prompt for a tech conference website.
-
 # AI Prompts:
 
 Design a modern "24-Hour AI Hackathon" section for the DevConf 2026 landing page using only HTML5 and CSS3. The design should seamlessly match the existing website with a clean white background, blue accent colors, rounded cards, subtle shadows, and a responsive layout using Flexbox.

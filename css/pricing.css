@@ -1,0 +1,121 @@
+/* Pricing Section */
+
+.pricing-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+.pricing-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pricing-header h2 {
+  font-size: 48px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+.pricing-header p {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.pricing-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-card.active {
+  background: #0f172a;
+  color: #ffffff;
+}
+.plan {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+.active .plan {
+  color: #60a5fa;
+}
+.pricing-card h3 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.price-text {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+.active .price-text {
+  color: #cbd5e1;
+}
+.pricing-card hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 20px 0;
+}
+.active hr {
+  border-color: #334155;
+}
+.pricing-card ul {
+  list-style: disc;
+  padding-left: 18px;
+  flex: 1;
+}
+.pricing-card ul li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.pricing-card ul li::marker {
+  color: #2563ebff;
+}
+.active .pricing-card ul li::marker {
+  color: #60a5fa;
+}
+
+/* Button Styles */
+.standard-btn,
+.pro-btn,
+.team-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.standard-btn,
+.team-btn {
+  background: #fff;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.pro-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+.team-bg {
+  background: #f8f9fbff;
+}
+.team-bg .team-btn {
+  border-color: #0d1b2aff;
+  color: #0d1b2aff;
+}
+.pricing-card li::marker {
+  color: #2563ebff;
+}
+.pricing-section {
+  margin: 150px auto;
+}
