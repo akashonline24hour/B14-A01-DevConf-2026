@@ -76,11 +76,40 @@
   background: #374151;
   margin-bottom: 25px;
 }
+/* Footer Bottom */
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* Copyright */
 
-.copyright {
+.copyright p {
   text-align: center;
   color: #d1d5db;
   font-size: 15px;
+}
+.copyright p:hover {
+  color: #ffffff;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d1d5db;
+  font-size: 15px;
+}
+.footer-links a:hover {
+  color: #ffffff;
+  transition: 0.3s;
+  font-weight: 500;
 }
